@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>compra del articulo</title>
+  <link rel="stylesheet" href="estilos.css">
+  <!-- iconos-->
+    <link rel="apple-touch-icon" href="assets/img/">
+    <!-- css-->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/templatemo.css">
+     <link rel="stylesheet" href="assets/css/custom.css">
+     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- inicio encabezado-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-light" id="templatemo_nav_top">
+            <div class="container text-light">
+                <div class="w-100 d-flex justify-content-between">
+                    <div>
+                        <i class="fa fa-envelope mx-2"></i>
+                        <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:npcyt2007ff@gmail.com">info@JCtecno.com</a>
+                        <i class="fa fa-phone mx-2"></i>
+                        <a class="navbar-sm-brand text-light text-decoration-none" href="tel: 3023432431">302-343-2431</a>
+                    </div>
+                    <div>
+                        <a class="text-light" href="https://es-la.facebook.com/profile.php?id=100037944337199" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://www.instagram.com/chrisj_vquez?igsh=dDlmNHcwcTc2Y2Jv" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://x.com/jacobzm13206" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+        </nav>
+        <!-- fin encabezado-->
+        <!-- inicio menu-->
+         <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                    JC TECHNOLOGY
+                </a>
+                <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="opciones">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acercade.html">A cerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="compras.html">Compras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+         </nav>
+    <!-- fin menu-->
+  <h1>Producto Destacado</h1>
+  <div class="producto">
+    <img src="mouse.jpg" alt="mouse" style="width:300px;">
+    <h2>Nombre del Producto</h2>
+    <p>Descripción breve del producto aquí.</p>
+    <p><strong>Precio:</strong> $235.000</p>
+
+    <form action="comprar.html" method="post">
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" id="cantidad" name="cantidad" min="1" value="1" required>
+      <input type="hidden" name="producto" value="Nombre del Producto">
+      <button onclick="MostrarMsn()"> Comprar</button>
+    </form>
+  </div>
+  <!-- inicio secciones-->
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <!-- fin secciones-->
+  <!-- inicio de pie-->
+    <footer class="bg-dark" id="templatemo_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light log">JC TECHNOLOGY</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Local situado en Barranquilla
+                        </li>
+
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel: 3023432431">302-343-2431</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope mx-2"></i>
+                            <a class="text-decoration-none" href="mailto:npcyt2007ff@gmail.com">info@JCtecno.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="laptop.html">Portatil</a></li>
+                        <li><a class="text-decoration-none" href="celular.html">Celular</a></li>
+                        <li><a class="text-decoration-none" href="cascos.html">Cascos</a></li>
+                        <li><a class="text-decoration-none" href="mouses.html">Mouse</a></li>
+                        <li><a class="text-decoration-none" href="tecladotkl.html">Teclado</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Mas información</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                        <li><a class="text-decoration-none" href="acercade.html">A cerca de</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Compras</a></li>
+                        <li><a class="text-decoration-none" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://es-la.facebook.com/profile.php?id=100037944337199"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/chrisj_vquez?igsh=dDlmNHcwcTc2Y2Jv"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://x.com/jacobzm13206"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Escriba su Email</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                        <div class="input-group-text btn-success text-light">Subscribirse</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <p class="text-left text-light">
+                         Copyright &copy; 2025 -JC TECHNOLOGY | Diseñado por: Jacob Zambrano & Christian Jimenez
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fin de pie-->
+    <!-- archivos js-->
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
+     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+     <script src="assets/js/jquery-1.11.0.min.js"></script>
+     <script src="assets/js/templatemo.js"></script>
+     <script src="assets/js/custom.js"></script>
+</body>
+<script src="script.js"></script>
+</html>
